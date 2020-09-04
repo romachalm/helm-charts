@@ -1,4 +1,4 @@
 #!/bin/sh
 
 helm package -d $1 $1
-helm index .
+helm repo index .
