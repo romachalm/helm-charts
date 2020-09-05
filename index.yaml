@@ -2,21 +2,7 @@ apiVersion: v1
 entries:
   istio-operator:
   - apiVersion: v1
-    created: "2020-09-04T18:58:18.671236+02:00"
-    description: Helm chart for deploying Istio operator
-    digest: c0827d97673c034b18a9f301b57c9d40a7c6eaa555392794c0c7c93b8f52e272
-    icon: https://istio.io/favicons/android-192x192.png
-    keywords:
-    - istio
-    - operator
-    name: istio-operator
-    sources:
-    - http://github.com/istio/istio/operator
-    urls:
-    - istio-operator/istio-operator-1.6.8.tgz
-    version: 1.6.8
-  - apiVersion: v1
-    created: "2020-09-04T18:58:18.670777+02:00"
+    created: "2020-09-05T10:39:42.431847+02:00"
     description: Helm chart for deploying Istio operator
     digest: a94b48cc44def6be7ba533a597167ac2f7c430fedf996ec0e7d95a7ae0691a0b
     icon: https://istio.io/favicons/android-192x192.png
@@ -29,4 +15,18 @@ entries:
     urls:
     - istio-operator/istio-operator-1.6.8-1.tgz
     version: 1.6.8-1
-generated: "2020-09-04T18:58:18.66993+02:00"
+  knative-operator:
+  - apiVersion: v1
+    created: "2020-09-05T10:39:42.432267+02:00"
+    description: Helm chart for deploying Knative operator
+    digest: 50a37150865c7728857096ed2bdb9e2844e18be92976288ed6f98c23bdf83b2f
+    keywords:
+    - knative
+    - operator
+    name: knative-operator
+    sources:
+    - http://github.com/knative/operator
+    urls:
+    - knative-operator/knative-operator-0.17.0.tgz
+    version: 0.17.0
+generated: "2020-09-05T10:39:42.428138+02:00"
